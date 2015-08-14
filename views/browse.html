@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<div class="container" ng-controller="NavController">
+	<div class="row">
+
+		<div class="col-md-offset-2 col-md-8">
+			<div class="list-group">
+
+
+				<!-- SEARCH TOOL -->
+				<div class="form-group">
+
+					<div class="input-group">
+						<div class="input-group-addon">
+							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						</div>
+			      		<input type="text" ng-model="searchTask" class="form-control" placeholder="Search">
+			    	</div>	
+
+				</div>
+				<!--END SEARCH TOOL-->
+
+
+				<!--POST A TASK BUTTON-->
+				<div class="title" ng-show="signedIn()">
+					<a href="#/post" class="btn btn-warning">Post Your Skills</a>
+				</div>
+				<br>
+				<!--END POST TASK BUTTON-->
+
+
+				<!-- TASK LIST -->
+				<a ng-repeat="task in tasks | filter: searchTask | orderBy: 'title'" ng-href="#/edit/{{task.$id}}">
+
+					<div class="list-group-item">
+
+						<div class="row-content">
+							<h4 class="list-group-item-heading">{{task.title}}</h4>
+							
+							<span class="list-group-item-text">
+								{{task.description | limitTo:50}}{{task.description.length > 50? "..." : ""}}
+							</span>
+						</div>
+
+						<div class="payment">
+							<div>${{task.total}}</div>
+						</div>
+
+					</div>
+
+					<div class="list-group-separator">
+					</div>
+
+				</a>
+				<!-- END TASK LIST -->
+
+			
+			</div>
+		</div>
+
+	</div>
+</div>

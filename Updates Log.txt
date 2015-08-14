@@ -1,0 +1,28 @@
+//Update 1
+
+Used Material Design for Bootstrap to create the general layout of the site and for subtle effects like nicer styling of fonts and buttons. Angular.js also made it much simpler to style multiple HTML pages in a similar manner with it's 'ng-include' directive. Bootstrap Modals also makes the ability for a user to change their password a very stylish and responsive experience compared to a control panel setup employed on a large number of websites, in my opinion. Still need to actually code the functionality the links the front-end with Firebase and validates user details. 
+
+
+
+//Update 2
+
+Utilized Angular.js to link the front-end with Firebase for real-time updates on posted/edited content, authenticating user credentials on log-in or registration, and really just anything to do with storing or manipulating any user-data. This is my first major project working with Firebase, and while it does not seem as secure as a full-fledged database like MongoDB, the real-time integration of content is virtually seamless with Firebase which is a huge benefit on this project.
+
+
+
+//Update 3
+
+Added the jQuery library 'Toastr' for more stylish notifications during events such as creating or updating a post and user registration successes/errors. General interaction with the site is much more visually appealing and user-friendly as a result. Also cleaned up and commented a lot of neglected code.
+
+
+
+//Update 4
+
+Added Bootstrap Modals for New Post and Edit created tasks. A much more responsive design as it doesn't need to navigate away to different pages to do those simple tasks like before. The user can stay on the same page and edit or post multiple items much easier now.
+
+
+
+//Update 5
+
+Shifted the layout of the site so that when a user is browsing items the selected item's description is now displayed on the right side of the page, rather than having the descriptions of all items on the page visible under their post title like previously. Results in a cleaner layout with much less text clutter as only the information the user wants to see is displayed. Also added the ability for the user to delete an item they posted.
+
