@@ -28,6 +28,6 @@ var app = angular
         controller: 'AuthController'
       })
       .otherwise({
-        redirectTo: 'views/browse.html'            //WHAT TO DO IF THE URL SUFFIX DOESN'T MATCH ANY CASE
+        redirectTo: ''            //WHAT TO DO IF THE URL SUFFIX DOESN'T MATCH ANY CASE
       });
   });
