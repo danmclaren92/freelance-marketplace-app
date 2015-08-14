@@ -1,7 +1,7 @@
 'use strict';       //USE STRICT SAYS RUN THE CODE IN 'STRICT' TYPE (HAS CERTAIN RULES-LIKE UNDECLARED VARIABLES WILL THROW AN ERROR)
 
 var app = angular
-  .module('TaskNinjaApp', [
+  .module('TaskApp', [
     'ngAnimate',
     'ngResource',    
     'ngRoute',    
@@ -12,7 +12,7 @@ var app = angular
   .config(function ($routeProvider) {        //CHANGE CONTENT BASED ON URL SUFFIX
     $routeProvider      
       .when('/', {                            //WHEN URL IS LIKE THAT
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/browse.html',
         controller: 'TaskController'          //DISPLAY CONTENT-THE BEAUTY OF MVC'S!    
       })
       .when('/browse', {
