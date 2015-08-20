@@ -1,7 +1,6 @@
 body {
   background: #F3F3F3;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 115%;
 }
 
 p {
@@ -93,7 +92,7 @@ a, a:hover, a:focus {
 
 .list-group .list-group-item .list-group-item-heading {
   color: rgba(0,0,0,.70);
-  font-size: 1.10rem;
+  font-size: 1.30rem;
   font-weight: bold;
   line-height: 1rem;
 }
@@ -116,7 +115,7 @@ a, a:hover, a:focus {
 }
 
 .list-group .list-group-item .payment .status{
-  font-size: 1rem;
+  font-size: 1.3rem;
   position: absolute;
   padding: 0.3125rem;
   right: 0.3125rem;
@@ -156,7 +155,7 @@ a, a:hover, a:focus {
 }
 
 .cmt-time {
-  font-size: 0.75rem;
+  font-size: 0.95rem;
 }
 
 .img-circle.comment.gravatar {
