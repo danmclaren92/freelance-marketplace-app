@@ -18,8 +18,7 @@ a, a:hover, a:focus {
 }
 
 .bottom {
-  position: absolute;
-  bottom: 10%; left: 25%;
+  
   text-align: center;
 }
 
