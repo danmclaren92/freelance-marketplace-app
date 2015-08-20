@@ -1,5 +1,6 @@
 body {
   background: #F3F3F3;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
@@ -34,6 +35,8 @@ a, a:hover, a:focus {
 
 .navbar {
   margin-bottom: 0;
+  font-size: 1.2em;
+  box-sizing: border-box;
 }
 
 .title {
