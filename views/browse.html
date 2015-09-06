@@ -23,14 +23,14 @@
 
 				<!--POST A TASK BUTTON-->
 				<div class="title" ng-show="signedIn()">
-					<a href="#/post" class="btn btn-warning">Post Your Skills</a>
+					<a href="" data-toggle="modal" data-target="#posModal" class="btn btn-warning">Post Your Skills</a>
 				</div>
 				<br>
 				<!--END POST TASK BUTTON-->
 
 
 				<!-- TASK LIST -->
-				<a ng-repeat="task in tasks | filter: searchTask | orderBy: 'title'" ng-href="#/edit/{{task.$id}}">
+				<a ng-repeat="task in tasks | filter: searchTask | orderBy: 'title'" ng-href="">
 
 					<div class="list-group-item">
 

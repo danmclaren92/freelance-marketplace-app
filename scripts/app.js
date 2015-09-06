@@ -12,7 +12,7 @@ var app = angular
   .config(function ($routeProvider) {        //CHANGE CONTENT BASED ON URL SUFFIX
     $routeProvider      
       .when('/', {                            //WHEN URL IS LIKE THAT
-        templateUrl: 'views/browse.html',
+        templateUrl: 'views/main.html',
         controller: 'TaskController'          //DISPLAY CONTENT-THE BEAUTY OF MVC'S!    
       })
       .when('/browse', {
