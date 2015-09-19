@@ -22,8 +22,9 @@
 
 
 				<!--POST A TASK BUTTON-->
-				<div class="title" ng-show="signedIn()">
-					<a href="" data-toggle="modal" data-target="#posModal" class="btn btn-warning">Post Your Skills</a>
+				<div class="title">
+					<a href="" data-toggle="modal" data-target="#posModal" class="btn btn-warning" ng-show="signedIn()">New Post</a>
+					<a href="#/register" class="btn btn-warning" ng-hide="signedIn()">Register To Post!</a>
 				</div>
 				<br>
 				<!--END POST TASK BUTTON-->
